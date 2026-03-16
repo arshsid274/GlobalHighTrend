@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c8e8ff"/><stop offset="100%" style="stop-color:#e8f4ff"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0018B2"/><stop offset="100%" style="stop-color:#146EF5"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#sky)"/>
+  <!-- Background buildings -->
+  <rect x="30" y="200" width="80" height="170" fill="#a0b8d0" opacity="0.5"/>
+  <rect x="510" y="180" width="100" height="190" fill="#a0b8d0" opacity="0.5"/>
+  <rect x="490" y="160" width="60" height="210" fill="#90a8c0" opacity="0.4"/>
+  <!-- Water / canal - Business Bay waterfront -->
+  <rect x="0" y="320" width="640" height="80" fill="#5590cc"/>
+  <path d="M 0 320 Q 80 312 160 320 Q 240 328 320 320 Q 400 312 480 320 Q 560 328 640 320 L 640 335 Q 560 343 480 335 Q 400 327 320 335 Q 240 343 160 335 Q 80 327 0 335 Z" fill="#4480bb" opacity="0.6"/>
+  <!-- Road -->
+  <rect x="0" y="295" width="640" height="30" fill="#c8c0a8"/>
+  <rect x="0" y="305" width="640" height="3" fill="white" opacity="0.5"/>
+  <!-- Burlington Tower main -->
+  <rect x="220" y="80" width="200" height="220" fill="url(#tower)"/>
+  <!-- Glass facade -->
+  <g fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.06)" stroke-width="0.5">
+    <rect x="238" y="95" width="25" height="200"/><rect x="270" y="95" width="25" height="200"/>
+    <rect x="302" y="95" width="25" height="200"/><rect x="334" y="95" width="25" height="200"/>
+    <rect x="366" y="95" width="25" height="200"/>
+    <rect x="228" y="120" width="184" height="2"/><rect x="228" y="150" width="184" height="2"/>
+    <rect x="228" y="180" width="184" height="2"/><rect x="228" y="210" width="184" height="2"/>
+    <rect x="228" y="240" width="184" height="2"/><rect x="228" y="270" width="184" height="2"/>
+  </g>
+  <!-- Tower crown -->
+  <polygon points="320,35 220,80 420,80" fill="#0018B2"/>
+  <rect x="312" y="10" width="16" height="28" fill="#146EF5"/>
+  <circle cx="320" cy="8" r="4" fill="#ff4444"/>
+  <!-- Office 410 highlight window -->
+  <rect x="302" y="190" width="22" height="18" rx="2" fill="rgba(255,220,50,0.7)" stroke="rgba(255,220,50,0.5)" stroke-width="1"/>
+  <!-- "410" label -->
+  <rect x="350" y="190" width="40" height="18" rx="4" fill="rgba(255,220,50,0.9)"/>
+  <text x="370" y="203" font-family="Arial" font-size="9" font-weight="800" text-anchor="middle" fill="#333">OFF.410</text>
+  <line x1="350" y1="199" x2="324" y2="199" stroke="rgba(255,220,50,0.7)" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Address sign -->
+  <rect x="158" y="258" width="165" height="36" rx="6" fill="white" stroke="#e0e6eb" stroke-width="1.5" opacity="0.95"/>
+  <text x="240" y="272" font-family="Arial" font-size="9" font-weight="700" text-anchor="middle" fill="#0018B2">BURLINGTON TOWER</text>
+  <text x="240" y="285" font-family="Arial" font-size="7.5" text-anchor="middle" fill="#555">Marasi Drive, Business Bay, Dubai</text>
+  <!-- Brand badge -->
+  <rect x="0" y="350" width="640" height="50" fill="rgba(0,24,178,0.92)"/>
+  <text x="320" y="372" font-family="Arial" font-size="13" font-weight="700" text-anchor="middle" fill="white">GLOBAL HIGH TREND — HEAD OFFICE</text>
+  <text x="320" y="390" font-family="Arial" font-size="10" text-anchor="middle" fill="rgba(255,255,255,0.7)">Burlington Tower, Office 410, Marasi Drive, Business Bay, Dubai, UAE</text>
+</svg>

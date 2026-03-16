@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a18"/>
+      <stop offset="100%" style="stop-color:#1a1000"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff4400"/>
+      <stop offset="100%" style="stop-color:#ffcc00"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+
+  <!-- Ground / base platform -->
+  <rect x="0" y="380" width="800" height="120" fill="#111118"/>
+  <rect x="0" y="377" width="800" height="6" fill="#1e1e30"/>
+
+  <!-- Refinery tower 1 -->
+  <rect x="100" y="180" width="50" height="200" fill="#1e2040"/>
+  <rect x="110" y="160" width="30" height="30" fill="#252550"/>
+  <rect x="115" y="140" width="20" height="25" fill="#2a2a5a"/>
+  <!-- Pipes -->
+  <rect x="90" y="280" width="70" height="8" rx="4" fill="#2a2a6a"/>
+  <rect x="100" y="260" width="8" height="130" rx="4" fill="#2a2a6a"/>
+
+  <!-- Refinery tower 2 (main) -->
+  <rect x="300" y="120" width="70" height="260" fill="#1a1a3a"/>
+  <rect x="310" y="100" width="50" height="30" fill="#202050"/>
+  <rect x="318" y="75" width="34" height="30" fill="#25255a"/>
+  <!-- Flame on top -->
+  <ellipse cx="335" cy="72" rx="12" ry="18" fill="url(#flame)" opacity="0.9"/>
+  <ellipse cx="335" cy="78" rx="8" ry="12" fill="#ffcc00" opacity="0.7"/>
+  <!-- Glow -->
+  <circle cx="335" cy="70" r="30" fill="#ff6600" opacity="0.1"/>
+  <circle cx="335" cy="70" r="20" fill="#ffaa00" opacity="0.1"/>
+
+  <!-- Refinery tower 3 -->
+  <rect x="480" y="200" width="55" height="180" fill="#1a1a35"/>
+  <rect x="488" y="180" width="39" height="25" fill="#20204a"/>
+  <rect x="492" y="160" width="31" height="25" fill="#252555"/>
+
+  <!-- Storage tanks -->
+  <ellipse cx="620" cy="330" rx="80" ry="30" fill="#1e2050"/>
+  <rect x="540" y="300" width="160" height="60" fill="#161640"/>
+  <ellipse cx="620" cy="300" rx="80" ry="30" fill="#252560"/>
+  <!-- Tank label -->
+  <text x="620" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="rgba(20,110,245,0.7)">CRUDE OIL</text>
+
+  <!-- Pipeline -->
+  <rect x="0" y="350" width="800" height="12" rx="6" fill="#1a1a3a"/>
+  <rect x="0" y="353" width="800" height="5" rx="3" fill="#252550"/>
+
+  <!-- Pipe joints -->
+  <g fill="#2a2a6a">
+    <rect x="145" y="344" width="15" height="24" rx="3"/><rect x="295" y="344" width="15" height="24" rx="3"/>
+    <rect x="445" y="344" width="15" height="24" rx="3"/><rect x="595" y="344" width="15" height="24" rx="3"/>
+  </g>
+
+  <!-- Connecting pipes between towers -->
+  <rect x="148" y="285" width="155" height="8" rx="4" fill="#2a2a6a"/>
+  <rect x="148" y="260" width="8" height="33" rx="4" fill="#2a2a6a"/>
+  <rect x="295" y="260" width="8" height="33" rx="4" fill="#2a2a6a"/>
+
+  <!-- Labels -->
+  <rect x="0" y="440" width="800" height="60" fill="rgba(20,110,245,0.15)"/>
+  <text x="400" y="466" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#146EF5">OIL &amp; GAS TRADING</text>
+  <text x="400" y="486" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="rgba(255,255,255,0.5)">Refined Petroleum · Lubricants · Petrochemicals · International Supply</text>
+</svg>

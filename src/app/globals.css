@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #146EF5;
+  --color-brand-accent: #0018B2;
+  --color-brand-dark: #080808;
+  --color-brand-white: #FFFFFF;
+  --color-brand-bg: #F7F7F7;
+  --color-brand-border: #E0E6EB;
+  --color-brand-text: #333333;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans antialiased text-brand-text bg-brand-bg;
+  }
+}
